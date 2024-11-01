@@ -1,0 +1,43 @@
+/* ExploreFeed.css */
+
+.explore-feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .nft-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nft-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .nft-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .nft-info {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nft-info h3 {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  .nft-info p {
+    color: #555;
+    margin: 5px 0 0;
+    font-weight: bold;
+  }
+  

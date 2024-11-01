@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "client": "npm start --prefix client",
+        "server": "nodemon server/server.js",
+        "dev": "concurrently \"npm run client\" \"npm run server\""
+    },
+    "dependencies": {
+        "concurrently": "^9.0.1",
+        "cors": "^2.8.5",
+        "web3": "^4.14.0"
+    }
+}

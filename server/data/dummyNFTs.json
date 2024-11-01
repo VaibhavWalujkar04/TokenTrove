@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "1",
+        "title": "Galactic Warrior",
+        "description": "A fearless warrior from the stars.",
+        "image": "https://placekitten.com/300/300",
+        "price": 10.5,
+        "creator": { "username": "StarArtist" }
+    },
+    {
+        "_id": "2",
+        "title": "Cyber Samurai",
+        "description": "A fusion of ancient samurai and future tech.",
+        "image": "https://placekitten.com/301/300",
+        "price": 15.0,
+        "creator": { "username": "FutureSamurai" }
+    },
+    {
+        "_id": "3",
+        "title": "Pixel Alien",
+        "description": "A mysterious pixelated lifeform from beyond Earth.",
+        "image": "https://placekitten.com/302/300",
+        "price": 8.2,
+        "creator": { "username": "PixelMaster" }
+    },
+    {
+        "_id": "4",
+        "title": "Ethereal Dragon",
+        "description": "A legendary dragon from another dimension.",
+        "image": "https://placekitten.com/303/300",
+        "price": 25.0,
+        "creator": { "username": "DragonLord" }
+    },
+    {
+        "_id": "5",
+        "title": "Astronaut Cat",
+        "description": "A brave cat on a journey through the stars.",
+        "image": "https://placekitten.com/304/300",
+        "price": 5.5,
+        "creator": { "username": "SpaceCat" }
+    },
+    {
+        "_id": "6",
+        "title": "Digital Sunset",
+        "description": "A mesmerizing sunset in a digital world.",
+        "image": "https://placekitten.com/305/300",
+        "price": 12.0,
+        "creator": { "username": "SunsetDreamer" }
+    },
+    {
+        "_id": "7",
+        "title": "Robot DJ",
+        "description": "The ultimate DJ bot, here to drop the beats.",
+        "image": "https://placekitten.com/306/300",
+        "price": 18.7,
+        "creator": { "username": "BeatMaster" }
+    },
+    {
+        "_id": "8",
+        "title": "Ancient Artifact",
+        "description": "A relic from a forgotten civilization.",
+        "image": "https://placekitten.com/307/300",
+        "price": 20.0,
+        "creator": { "username": "Historian" }
+    },
+    {
+        "_id": "9",
+        "title": "Pixel Tiger",
+        "description": "A fierce tiger in pixel art style.",
+        "image": "https://placekitten.com/308/300",
+        "price": 9.5,
+        "creator": { "username": "PixelArtisan" }
+    },
+    {
+        "_id": "10",
+        "title": "Neon City",
+        "description": "A glimpse into the city of the future.",
+        "image": "https://placekitten.com/309/300",
+        "price": 22.3,
+        "creator": { "username": "CityArchitect" }
+    }
+]
