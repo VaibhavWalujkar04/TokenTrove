@@ -22,7 +22,7 @@ router.post('/add', async (req, res) => {
 // GET all NFTs for explore feed
 router.get('/explore', async (req, res) => {
     try {
-        const nfts = await NFT.find().populate('creator', 'username');
+        const nfts = await NFT.find();
         
         const nftsWithCreator = nfts.map(nft => ({
             title: nft.title,
@@ -30,7 +30,7 @@ router.get('/explore', async (req, res) => {
             image: nft.image,
             price: nft.price,
             dateCreated: nft.dateCreated,
-            creator: { username: nft.creator.username }
+            creator: nft.creator ? { username: nft.creator.username } : { username: 'Unknown' } // Handle undefined case
         }));
 
         res.status(200).json(nftsWithCreator);

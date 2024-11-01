@@ -6,10 +6,6 @@ const ExploreFeed = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
-    useEffect(() => {
-        fetchNFTs();
-    }, []);
-
     const fetchNFTs = async () => {
         setLoading(true);
         try {
@@ -26,6 +22,10 @@ const ExploreFeed = () => {
             setLoading(false);
         }
     };
+    
+    useEffect(() => {
+        fetchNFTs();
+    }, []);
 
     if (loading) return <div>Loading...</div>;
     if (error) return <div>Error: {error}</div>;
