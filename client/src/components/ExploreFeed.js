@@ -5,7 +5,6 @@ const ExploreFeed = () => {
     const [nfts, setNfts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
-
     const fetchNFTs = async () => {
         setLoading(true);
         try {
